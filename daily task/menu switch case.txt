@@ -1,0 +1,55 @@
+#include<iostream>
+using namespace std;
+
+void menu()
+{
+	int a,x,y;
+	
+	cout<<"======================="<<endl;
+	cout<<"      1.Addition       "<<endl;
+	cout<<"      2.Substraction    "<<endl;
+	cout<<"      3.Multiplication "<<endl;
+	cout<<"      4.Division       "<<endl;
+	cout<<"      5.Modulor        "<<endl;
+	cout<<"======================="<<endl;
+	
+	cout<<"Enter Your Choice"<<endl;
+	cin>>a;
+	
+	cout<<"Enter One Number  :";
+	cin>>x;
+			
+	cout<<"Enter Two Number  :";
+	cin>>y;
+	
+	switch(a)
+	{
+		case 1:	
+			cout<< "Addition of two number :"<<x+y;
+			break;
+			
+		case 2:
+			cout<< "Substraction of two number :"<<x-y;
+			break;
+			
+		case 3:
+			cout<< "Multiplication of two number :"<<x*y;
+			break;
+			
+		case 4:
+			cout<< "Division of two number :"<<x/y;
+			break;
+			
+		case 5:
+			cout<< "Modulo of two number :"<<x%y;
+			break;
+	}
+}
+
+
+int main()
+{
+	menu();
+	
+	return 0;
+}

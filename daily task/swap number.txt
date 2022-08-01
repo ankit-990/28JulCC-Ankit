@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int swap(int a, int b)
+{
+	int c;
+	
+	cout<<"Enter a Two Number : ";
+	cin>>a;
+	cin>>b;
+	
+	c=a;
+	a=b;
+	b=c;
+	
+	cout<<"Value of a: "<<a<<endl;
+	cout<<"value of b: "<<b;
+	
+}
+
+int main()
+{
+	
+	
+	int a,b;
+	swap(a,b);
+	
+	return 0;
+}
