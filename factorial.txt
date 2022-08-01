@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+factorial(int a)
+{
+	if(a>1)
+	{
+		return a*factorial(a-1);
+	}
+	
+}
+
+int main()
+{
+	int a;
+	cout<<"Enter the Number : "<<endl;
+	cin>>a;
+	
+	cout<<"factorial"<<factorial(a);
+	
+	return 0;
+}
